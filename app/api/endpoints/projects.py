@@ -60,7 +60,7 @@ async def create_project(
     """
     Create a new project.
     """
-    db_project = ProjectModel(**project.model_dump(), owner=current_user)
+    db_project = ProjectModel(**project.model_dump(), owner=current_user.username)
     db.add(db_project)
     db.commit()
     db.refresh(db_project)
