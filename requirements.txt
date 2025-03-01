@@ -1,0 +1,9 @@
+"fastapi[standard]">=0.68.0
+uvicorn>=0.15.0
+pydantic>=1.8.0
+pydantic-settings>=2.0.0
+python-multipart>=0.0.5
+pillow>=8.3.1
+sqlalchemy>=1.4.23
+jwt>=1.7.1
+alembic>=1.7.3
